@@ -1,0 +1,242 @@
+/**
+ * All of the CSS for your public-facing functionality should be included in this file.
+ *
+ * The file is enqueued from inc/frontend/class-frontend.php.
+ */
+
+ul.codeable_user_filter {
+	padding-left: 0px;
+	width: 100%;
+	max-width: 100% !important;
+	cursor: pointer;
+	font-family: 'open sans',sans-serif;
+}
+
+ul.codeable_user_filter li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+ul.codeable_user_filter li a {
+	background: transparent;
+	border: 1px solid darkslateblue
+}
+
+ul.codeable_user_filter li a.active {
+	background: darkslateblue
+}
+
+.codeable-user-filter-link {
+	background: #eee;
+	border: 1px solid #ff4623;
+	color: #000;
+	padding: 10px;
+	text-decoration: none !important;
+	outline: none;
+	transition: all 0.1s;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+a.codeable-user-filter-link:visited {
+	color: #000;
+	text-decoration: none !important;
+	outline: none;
+}
+
+.codeable-user-filter-link.active {
+	background: #ff4623;
+	border: 1px solid #fff;
+	color: #fff !important;
+	transition: all 0.1s;
+}
+
+ul.codeable_user_table_page_numbers {
+	padding-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.codeable_users_pagination {
+	display: inline-block;
+	width: 100%;
+}
+
+.codeable_users_pagination ul.codeable_user_table_page_numbers li {
+	list-style: none;
+	display: inline-block;
+	padding: 0px 5px;
+	margin: 0 0 20px 0;
+	line-height: 1;
+}
+
+#users_simple_list {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 1rem;
+	border-collapse: collapse;
+	width: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+#users_simple_list td,
+#users_simple_list th {
+	padding: 0.5em;
+	border: 1px solid #767676;
+	word-break: break-all;
+	font-size: 13px;
+}
+
+#users_simple_list td.role {
+	min-width: 180px;
+	text-transform: capitalize;
+}
+
+#users_simple_list tr:hover {
+	background: #eee;
+}
+
+#users_simple_list tr:nth-child(odd) {
+	background: #eee;
+}
+
+#users_simple_list thead tr:nth-child(odd) {
+	background: darkslateblue
+}
+
+#users_simple_list thead tr th span {
+	color: #FFF;
+}
+
+.label_span {
+	padding-right: 15px;
+	word-break: break-word !important;
+}
+
+.label_span,
+span.ascending_ar,
+span.descending_ar {
+	display: table-cell;
+}
+
+span.ascending_ar,
+span.descending_ar {
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-size: 35px !important;
+	cursor: pointer;
+}
+
+span.ascending_ar {
+	background-image: url("../images/sort_asc.png");
+	background-position: 0% 0%;
+}
+
+span.descending_ar {
+	background-image: url("../images/sort_desc.png");
+	background-position: 0% 140%;
+}
+
+span.ascending_ar.disabled {
+	background-image: url("../images/sort_asc_disabled.png");
+}
+
+span.descending_ar.disabled {
+	background-image: url("../images/sort_desc_disabled.png");
+}
+
+.codeable-pagination-link {
+	padding: 10px;
+	background: #eee;
+	border: 1px solid #ff4623;
+	color: #000;
+	font-family: open-sans, sans-serif;
+	font-size: 13px;
+	padding: 10px 20px;
+	text-decoration: none !important;
+	outline: none;
+	transition: all 0.1s;
+	border: 1px solid darkslateblue
+}
+
+.codeable-pagination-link:visited {
+	color: #000;
+	text-decoration: none !important;
+	outline: none;
+}
+
+.codeable-pagination-link.active {
+	background: #ff4623;
+	border: 1px solid #fff;
+	color: #fff !important;
+	transition: all 0.1s;
+}
+
+.codeable_usertable_wrapper .hidecol {
+	display: none !important;
+}
+
+.codeable_usertable_wrapper .showcol {
+	display: table-cell !important;
+}
+
+.current_showing_min_range,
+.current_showing_max_range,
+.total_users_range {
+	display: inline-block;
+}
+
+.codeable_usertable_wrapper {
+	max-width: 1170px !important;
+	margin: 0 auto;
+	position: relative;
+}
+
+.codeable_usertable_wrapper .record_shower {
+	display: inline-block;
+	width: 20%;
+	float: left;
+	line-height: 2rem;
+	font-size: 14px;
+	font-family: 'open sans',sans-serif;
+	font-weight: 700;
+}
+
+.codeable_usertable_wrapper .pagination_section {
+	display: inline-block;
+	width: 80%;
+	float: left;
+}
+
+.codeable_usertable_wrapper .label_span {
+	vertical-align: middle;
+}
+
+.codeable_usertable_wrapper .pagination_section ul {
+	float: right;
+}
+
+.codeable_loader {
+	background-image: url(../images/infinite_loader.gif)!important;
+	background-repeat: no-repeat !important;
+	background-size: 100px !important;
+	background-position: center center !important;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 99;
+	background: rgba(247, 247, 247, 0.67);
+}
+
+.codeable_loader.hide_loader {
+	display:none;
+}
+
+.codeable_loader.show_loader {
+	display:inline-block;
+	width: 100%;
+}

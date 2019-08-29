@@ -1,0 +1,262 @@
+# Copyright (C) 2019 Denish Patel
+# This file is distributed under the same license as the Codeable Users Table Plugin plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Codeable Users Table Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/codeable-users-table-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-07-24 12:19+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Domain: codeable-users-table-plugin\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_html\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin/class-admin.php:126 inc/admin/class-admin.php:127
+msgid "Codeable User Table"
+msgstr ""
+
+#: inc/admin/class-codeable-shortcode-manager.php:165
+msgid "Sorry, you are not authorized to view users."
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:24
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:18
+msgid "Codeable Users Table"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:31
+msgid "With shortcode"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:32
+msgid "Gutenberg Block"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:39
+msgid "1: With Gutenberg Block"
+msgstr ""
+
+#. translators: %s %s: Image Url, Alt text
+#: inc/admin/views/codeable-usertable-infopage.php:51
+#, php-format
+msgid "Add or edit your page and add new gutenberg block. <img src=\"%1$s\" alt=\"%2$s\">"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:65
+msgid "Add gutenberg users table in your page."
+msgstr ""
+
+#. translators: %s %s: Image Url, Alt text
+#: inc/admin/views/codeable-usertable-infopage.php:71
+#, php-format
+msgid "Select your newly added block and select settings as per your need. <img src=\"%1$s\" alt=\"%2$s\">"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:89
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:171
+msgid "Order By"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:98
+msgid "Order"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:107
+msgid "Record per page"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:118
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:150
+msgid "Which specific Role you want to show"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:119
+msgid "not available"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:128
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:132
+msgid "Show Role Filter"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:139
+msgid "2: With Shortcode"
+msgstr ""
+
+#. translators: %s %s: shortcode image, shortcode text
+#: inc/admin/views/codeable-usertable-infopage.php:151
+#, php-format
+msgid "Add or edit your page and add new shortcode widget block. <img src=\"%1$s\" alt=\"%2$s\">"
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:169
+#, php-format
+msgid "Add codeableusers shortcode which is: <pre><code>%s</code></pre>"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:181
+msgid "You can use parameters in above shortcode, please check description of each shortcode option listed below:"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:185
+msgid "Parameter"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:186
+msgid "Description"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:187
+msgid "Example"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:192
+msgid "option to order users by username or display name"
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:198
+#, php-format
+msgid "To order by display name: <pre><code>%s</code></pre>"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:206
+#: inc/admin/views/codeable-usertable-infopage.php:237
+#: inc/admin/views/codeable-usertable-infopage.php:313
+msgid "OR "
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:210
+#, php-format
+msgid "To order by user name: <pre><code>%s</code></pre>"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:223
+msgid "option to order users in ascending or descending order."
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:229
+#, php-format
+msgid "To order ascending: <pre><code>%s</code></pre>"
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:241
+#, php-format
+msgid "To order descendingshow: <pre><code>%s</code></pre>"
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:259
+#, php-format
+msgid "You can set All Roles or the specific roles that you want to display<br/> Please Note that Filter bar will be <b>%s</b> <br/>if you choose specific roles instead of all"
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:274
+#, php-format
+msgid "To show All Roles: <pre><code>%s</code></pre>"
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:286
+#, php-format
+msgid "To show specific roles: <pre><code>%s</code></pre>"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:300
+msgid "You can enable or disable Filter bar with this option"
+msgstr ""
+
+#: inc/admin/views/codeable-usertable-infopage.php:329
+msgid "option to show specific number of records on each page"
+msgstr ""
+
+#. translators: %s: shortcode tag
+#: inc/admin/views/codeable-usertable-infopage.php:355
+#, php-format
+msgid "You can use multiple parameter together, example:<pre><code>%s</code></pre>"
+msgstr ""
+
+#: inc/core/class-activator.php:47
+#, php-format
+msgid "This plugin requires a minmum PHP Version of %s "
+msgstr ""
+
+#: inc/frontend/class-frontend.php:140
+#: inc/frontend/views/codeable-users-table-plugin-codeablelistusers-simple.php:84
+msgid "Sorry, There are no users for selected role."
+msgstr ""
+
+#: inc/frontend/views/codeable-users-table-plugin-codeablelistusers-simple.php:29
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:93
+msgid "All Roles"
+msgstr ""
+
+#: inc/frontend/views/codeable-users-table-plugin-codeablelistusers-simple.php:55
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:175
+msgid "User Name"
+msgstr ""
+
+#: inc/frontend/views/codeable-users-table-plugin-codeablelistusers-simple.php:60
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:179
+msgid "Display Name"
+msgstr ""
+
+#: inc/frontend/views/codeable-users-table-plugin-codeablelistusers-simple.php:65
+msgid "Email"
+msgstr ""
+
+#. translators: %s: Minimum range
+#: inc/frontend/views/codeable-users-table-plugin-codeablelistusers-simple.php:118
+#, php-format
+msgid "Showing <div class=\"current_showing_min_range\">%1$d</div> to <div class=\"current_showing_max_range\">%2$d</div> of <div class=\"total_users_range\">%3$d</div> users"
+msgstr ""
+
+#. translators: %s: File Path tag
+#: inc/libraries/autoloader.php:80
+#, php-format
+msgid "The file attempting to be loaded at %s does not exist."
+msgstr ""
+
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:19
+msgid "common"
+msgstr ""
+
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:137
+msgid "Show Filter"
+msgstr ""
+
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:141
+msgid "Hide Filter"
+msgstr ""
+
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:151
+msgid "If you want to list specific roles only than you should choose hide filter option in \"Show Role Filter\" option, otherwise you will be able to see all roles after filtering! so we will select this for you, however you can change it as per need"
+msgstr ""
+
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:160
+msgid "Record Per Page"
+msgstr ""
+
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:188
+msgid "Default Order Type"
+msgstr ""
+
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:192
+msgid "Ascending"
+msgstr ""
+
+#: inc/admin/js/codeable-listuser-gutenberg-block.js:196
+msgid "Descending"
+msgstr ""

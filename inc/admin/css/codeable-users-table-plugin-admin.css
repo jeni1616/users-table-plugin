@@ -1,0 +1,125 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ *
+ * The file is enqueued from inc/admin/class-admin.php.
+ */
+
+body.wp-admin.block-editor-page ul.codeable_user_filter{
+	padding-left: 0px;
+	width: 100%;
+	max-width: 100% !important;
+	margin-bottom: 30px;
+}
+
+body.wp-admin.block-editor-page ul.codeable_user_filter li{
+	list-style:none;
+	display: inline-block;
+	margin: 0 25px 0 0;
+}
+
+body.wp-admin.block-editor-page .codeable-user-filter-link{
+	background: #eee;
+	border: 1px solid #ff4623;
+	color: #000;
+	padding: 10px;
+	text-decoration: none !important;
+	outline: none;
+	transition: all 0.1s;
+	font-size: 13px;
+}
+
+body.wp-admin.block-editor-page a.codeable-user-filter-link:visited {
+	color: #000;
+	text-decoration: none !important;
+	outline: none;
+}
+
+body.wp-admin.block-editor-page .codeable-user-filter-link.active{
+	background: #ff4623;
+	border: 1px solid #fff;
+	color: #fff !important;
+	transition: all 0.1s;
+}
+
+body.wp-admin.block-editor-page ul.codeable_user_table_page_numbers{
+	padding-left: 0px;
+}
+
+body.wp-admin.block-editor-page .codeable_users_pagination ul.codeable_user_table_page_numbers li{
+	list-style:none;
+	display: inline-block;
+	padding:10px 20px 10px 0;
+}
+
+body.wp-admin.block-editor-page #users_simple_list{
+	width: 100%;
+	max-width: 100%;
+	margin: 0 0 1rem;
+	border-collapse: collapse;
+	width: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+body.wp-admin.block-editor-page #users_simple_list td,
+body.wp-admin.block-editor-page #users_simple_list th {
+	padding: 0.5em;
+	border: 1px solid #767676;
+	word-break: break-all;
+	font-size: 13px;
+}
+
+body.wp-admin.block-editor-page .label_span,
+body.wp-admin.block-editor-page span.ascending_ar,
+body.wp-admin.block-editor-page span.descending_ar {
+	display: table-cell;
+}
+
+body.wp-admin.block-editor-page span.ascending_ar,
+body.wp-admin.block-editor-page span.descending_ar{
+	width: 25px;
+	height: 25px;
+}
+
+body.wp-admin.block-editor-page .codeable-pagination-link{
+	padding:10px;
+	background: #eee;
+	border: 1px solid #ff4623;
+	color: #000;
+	font-family: open-sans,sans-serif;
+	font-size: 18px;
+	padding: 5px 10px;
+	text-decoration: none !important;
+	outline: none;
+	transition: all 0.1s;
+	font-size: 13px;
+}
+
+body.wp-admin.block-editor-page .codeable-pagination-link:visited {
+	color: #000;
+	text-decoration: none !important;
+	outline: none;
+}
+
+body.wp-admin.block-editor-page .codeable-pagination-link.active{
+	background: #ff4623;
+	border: 1px solid #fff;
+	color: #fff !important;
+	transition: all 0.1s;
+}
+
+body.wp-admin.block-editor-page .record_shower{
+	font-size: 13px;
+}
+
+body.wp-admin.block-editor-page .hidecol{
+	display:none !important;
+}
+
+body.wp-admin.block-editor-page .showcol{
+	display:table-cell !important;
+}
+
+body.wp-admin.block-editor-page .current_showing_min_range ,
+body.wp-admin.block-editor-page .current_showing_max_range, .total_users_range{
+	display: inline-block;
+}

@@ -1,0 +1,47 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ *
+ * The file is enqueued from inc/admin/class-admin.php.
+ */
+
+.codeable_infopage_wrapper{
+	background: #fff;
+	margin: 20px;
+	padding: 30px;
+	font-size: 14px;
+}
+
+.codeable_infopage_wrapper code {
+	font-size: 16px;
+}
+
+.codeable_info_table td, .codeable_info_table th {
+	padding: 0.5em;
+	border: 1px solid #767676;
+	word-break: break-all;
+	font-size: 13px;
+}
+
+.codeable_infopage_wrapper ul{
+	padding-left: 20px;
+}
+
+.codeable_infopage_wrapper ul li{
+	list-style: square;
+	line-height: 30px;
+}
+
+.codeable_infopage_wrapper ol li{
+	line-height: 30px;
+}
+
+.codeable_infopage_wrapper img{
+	margin: 10px 0;
+	width: 450px;
+	display: block;
+	border: 2px solid #eee;
+}
+
+.codeable_infopage_wrapper .shortcode2img{
+	width: 700px;
+}
