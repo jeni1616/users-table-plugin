@@ -30,5 +30,3 @@ For more info, please visit WP-admin-panel > settings > Codeable user table page
 
 = 1.0 =
 * Initial Release
-
-`<?php code(); // goes in backticks ?>`
